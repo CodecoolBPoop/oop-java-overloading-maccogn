@@ -18,14 +18,17 @@ public class ProductCategory extends Product{
         this.id += 1;
     }
 
+    @Override
     public int getId() {
         return id;
     }
 
+    @Override
     public String getName() {
         return name;
     }
 
+    @Override
     public void setName(String name) {
         this.name = name;
     }

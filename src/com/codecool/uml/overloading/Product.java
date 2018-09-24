@@ -3,7 +3,7 @@ package com.codecool.uml.overloading;
 import java.util.ArrayList;
 
 
-public class Product implements Currency, Date{
+public class Product{
 
     protected int id;
     private String name;
@@ -32,6 +32,7 @@ public class Product implements Currency, Date{
     public String getName() {
         return name;
     }
+
 
     public void setName(String name) {
         this.name = name;
